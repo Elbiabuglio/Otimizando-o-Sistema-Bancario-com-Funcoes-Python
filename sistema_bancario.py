@@ -1,14 +1,15 @@
+import textwrap
+
 Menu = ("""
-      ########## Seja Bem Vindo(a) Banco Jacu ##########
+      ########## Seja Bem Vindo(a) Banco Buglio ##########
       
-                  $$$$$$$$$$ Menu $$$$$$$$$$
+                  ========== Menu ==========
                   
       [1] Depositar
       [2] Sacar
       [3] extrato
       [4] Sair
       
-      ################## Deus Abençoe ##################
       """)
 
 saldo = 500
@@ -61,8 +62,8 @@ while True:
         print("============================================")
         
     elif opcao == "4":
-        print("\n                Banco Jacu Agradeçe pela Parceria")
-        print("\n      5################## Volte Sempre ################## \n")
+        print("\n                Banco Buglio Agradeçe ")
+        print("\n      ################### Volte Sempre ################## \n")
         break
     
     else:
